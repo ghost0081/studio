@@ -20,10 +20,11 @@ export default function Home() {
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <p>
-          Created by Firebase Studio
+          
         </p>
       </footer>
     </div>
   );
 }
+
 
