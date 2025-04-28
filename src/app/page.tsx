@@ -26,10 +26,11 @@ export default function Home() {
             <li>✅ UP-CLOSE POV FORMAT (in-class, student point of view)</li>
             <li>✅ SPECIAL DISCOUNT CODES TO THE TROPIK VYBE SHOP AND MORE</li>
           </ul>
+          <div>Next Event: [Date and Time]</div>
         </div>
 
         {/* Right Column: Image */}
-        <div className="relative">
+        <div className="relative h-[600px] overflow-hidden">
           <Image
             src="/p1.jpg"
             alt="MoveWithAman Virtual Team Training"
