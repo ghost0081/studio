@@ -16,29 +16,6 @@ export default function Home() {
         <p className="mt-3 text-2xl">
           Learn to dance with us!
         </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <Link href="/about">
-            <Button className="m-4 p-5 w-44 rounded-xl text-xl">
-              About Us
-            </Button>
-          </Link>
-          <Link href="/classes">
-            <Button className="m-4 p-5 w-44 rounded-xl text-xl">
-              Classes
-            </Button>
-          </Link>
-          <Link href="/pricing">
-            <Button className="m-4 p-5 w-44 rounded-xl text-xl">
-              Pricing
-            </Button>
-          </Link>
-          <Link href="/blog">
-            <Button className="m-4 p-5 w-44 rounded-xl text-xl">
-              Blog
-            </Button>
-          </Link>
-        </div>
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
@@ -49,3 +26,4 @@ export default function Home() {
     </div>
   );
 }
+
