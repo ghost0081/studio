@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -8,14 +7,13 @@ export default function Home() {
         {/* Left Column: Text Content */}
         <div className="flex flex-col justify-center items-start space-y-6">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-            TRAIN WITH DE&apos;JON &amp; CLO AND <br />
-            TROPIK VYBE DANCE COMPANY ONLINE!
+            TRAIN WITH MOVE WITH AMAN DANCE COMPANY ONLINE!
           </h1>
           <p className="text-base md:text-lg">
-            TRAIN ONLINE in Salsa On2 Social Dance with Tropik Vybe Dance Company,
-            directed by De&apos;Jon Polanski &amp; Clo Ferreira. Experience full classes with a UNIQUE
+            TRAIN ONLINE in Salsa On2 Social Dance with MoveWithAman Dance Company,
+             Experience full classes with a UNIQUE
             point of view and a REAL student perspective by training online as if you were
-            INSIDE the classroom environment as an EXCLUSIVE MEMBER of Tropik Vybe
+            INSIDE the classroom environment as an EXCLUSIVE MEMBER of MoveWithAman
             Dance Company!
           </p>
           <p className="text-base md:text-lg">
@@ -33,10 +31,10 @@ export default function Home() {
         {/* Right Column: Image */}
         <div className="relative">
           <Image
-            src="https://i.ibb.co/XJFwygC/home-image.png"
-            alt="Tropik Vybe Virtual Team Training"
+            src="/p1.jpg"
+            alt="MoveWithAman Virtual Team Training"
             fill={true}
-            style={{objectFit: 'cover'}}
+            style={{ objectFit: 'cover' }}
             className="rounded-2xl shadow-lg"
             priority
           />
