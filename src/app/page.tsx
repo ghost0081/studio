@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-black text-white">
+    <div className="relative min-h-screen bg-background text-foreground">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:p-16">
         {/* Left Column: Text Content */}
         <div className="flex flex-col justify-center items-start space-y-6">
@@ -28,9 +28,6 @@ export default function Home() {
             <li>✅ UP-CLOSE POV FORMAT (in-class, student point of view)</li>
             <li>✅ SPECIAL DISCOUNT CODES TO THE TROPIK VYBE SHOP AND MORE</li>
           </ul>
-          <Link href="#" className="bg-white text-black py-2 px-6 rounded-full font-bold hover:bg-gray-100 transition-colors">
-            START TRAINING
-          </Link>
         </div>
 
         {/* Right Column: Image */}
