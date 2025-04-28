@@ -18,11 +18,7 @@ export default function Home() {
         </p>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <p>
-          
-        </p>
-      </footer>
+      
     </div>
   );
 }
