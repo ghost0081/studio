@@ -7,7 +7,7 @@ interface NavbarProps extends React.HTMLAttributes<HTMLElement> {}
 
 const Navbar: React.FC<NavbarProps> = ({ className, ...props }) => {
   return (
-    <nav className={cn("bg-secondary p-4 flex justify-between items-center", className)} {...props}>
+    <nav className={cn("bg-secondary p-4 flex justify-between items-center rounded-xl shadow-md", className)} {...props}>
       <div className="font-bold text-xl">MoveWithAman</div>
       <div className="space-x-4">
         <Link href="/">
@@ -25,10 +25,12 @@ const Navbar: React.FC<NavbarProps> = ({ className, ...props }) => {
         <Link href="/blog">
           <Button variant="ghost">Blog</Button>
         </Link>
+        <Button variant="ghost" className="ml-2">
+          Next Event: Calendar
+        </Button>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
-
